@@ -26,3 +26,7 @@ cd droit
 yarn ('yarn install')
 yarn dev
 ```
+
+### Love a grid
+
+![image](grid.png)
