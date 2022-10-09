@@ -7,14 +7,14 @@ When i was making this on Sunday I noticed James Howell was updating the figma (
 So much more can be done (only so much you can do in the time I had available at the weekend) but hopefully you get a flavour of what I can do. It should be pretty pixel perfect looking at the Figma grid.
 
 - Complete left nav, radios and tooltip
-- More mobile friendly/flexible grid
+- More mobile friendly/flexible grid (would set up so can set col spans at diff breakpoints and retain grid)
 - Addition of Storybook (or similar)
 - Addition of visual regression (Applitools or similar)
 - Addition of testing library (React testing library or similar)
 - A11y goodness (ARIA and similar)
 - Would have created an Icon component so it would be easy to call in all the icons
 - Add tooltip component
-- Pass custom select value and show children text separately
+- Pass custom select value and show children text separately in Field component (perhaps even seperate or extend)
 - And so much more...
 
 ### Develop
@@ -24,6 +24,6 @@ To develop all apps and packages, run the following command:
 ```
 git clone
 cd droit
-yarn
+yarn ('yarn install')
 yarn dev
 ```

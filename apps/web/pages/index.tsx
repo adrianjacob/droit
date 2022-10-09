@@ -37,7 +37,9 @@ export default function Web() {
         </Row>
         <Row>
           <Col start={2} end={4}>
-            <Card>Left panel</Card>
+            <Card>
+              <Spacer x={40}>Left panel</Spacer>
+            </Card>
           </Col>
           <Col start={5} end={11}>
             <form id="form">
@@ -103,7 +105,7 @@ export default function Web() {
                     <Text as="label" for="email">
                       Favourite cuisine
                     </Text>
-                    <div>[RADIO]</div>
+                    <div>[RADIOS GO HERE]</div>
                     <Spacer />
                     <Text as="label" for="email">
                       Email address{" "}

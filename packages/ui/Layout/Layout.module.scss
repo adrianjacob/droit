@@ -1,39 +1,42 @@
 @import "./../tokens";
 
 @font-face {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url(./fonts/Inter-Regular.woff2) format('woff2');
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Inter Regular"), local("Inter-Regular"),
+    url(./fonts/Inter-Regular.woff2) format("woff2");
 }
 
 @font-face {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-display: swap;
-    src: url(./fonts/Inter-Medium.woff2) format('woff2');
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local("Inter Medium"), local("Inter-Medium"),
+    url(./fonts/Inter-Medium.woff2) format("woff2");
 }
 
 @font-face {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-display: swap;
-    src: url(./fonts/Inter-SemiBold.woff2) format('woff2');
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local("Inter Semi Bold"), local("Inter-SemiBold"),
+    url(./fonts/Inter-SemiBold.woff2) format("woff2");
 }
 
 .layout {
-    font-family: 'Inter', sans-serif;
-    line-height: 1.5;
-    background: $color-gray-200;
-    padding: 0 $grid-gutter;
-    color: $color-gray-500;
+  font-family: "Inter", sans-serif;
+  line-height: 1.5;
+  background: $color-gray-200;
+  padding: 0 $grid-gutter;
+  color: $color-gray-500;
 }
 
 .wrap {
-    max-width: 1130px;
-    margin: 0 auto;
-    min-height: 100vh;
+  max-width: 1130px;
+  margin: 0 auto;
+  min-height: 100vh;
 }
