@@ -1,0 +1,21 @@
+@import "./../tokens";
+
+$sizes: 1, 2, 4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48, 56, 64, 80, 96, 112, 128 ;
+
+@each $size in $sizes {
+    .py#{$size} {
+        padding-top: #{$size/2}px;
+        padding-bottom: #{$size/2}px;
+    }
+    .px#{$size} {
+        padding-top: #{$size/2}px;
+        padding-bottom: #{$size/2}px;
+    }
+}
+
+.divider {
+    height: 1px;
+    border: 0;
+    margin: 0;
+    background: $color-gray-300;
+}

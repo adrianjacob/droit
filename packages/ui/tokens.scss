@@ -14,10 +14,13 @@ $font-weight-normal: 400;
 $font-weight-demi: 500;
 $font-weight-bold: 600;
 
-$font-size-h1: 24px;
-$font-size-h2: 20px;
+$font-size-heading: 24px;
+$font-size-sub: 20px;
 $font-size-body: 16px;
+$font-size-small: 14px;
 
 $box-shadow-100: 0px 1px 27px rgba(148, 163, 184, 0.34);
 
-$border-radius-sm: '4px'
+$border-radius-sm: 4px;
+
+$grid-gutter: 24px;

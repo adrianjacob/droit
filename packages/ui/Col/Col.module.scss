@@ -1,0 +1,14 @@
+@import "./../tokens";
+
+@for $i from 1 through 12 {
+    .start#{$i} {
+        grid-column-start: #{$i};
+    }
+    .end#{$i} {
+        grid-column-end: #{$i+1};
+    }
+}
+
+.end-1 {
+    grid-column-end: -1;
+}

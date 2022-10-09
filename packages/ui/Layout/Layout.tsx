@@ -1,4 +1,12 @@
+import classNames from "classnames/bind";
 import styles from "./Layout.module.scss";
-export const Layout = ({children}) => {
-  return <div className={styles.button}>{children}sdsd</div>;
+
+const cx = classNames.bind(styles);
+
+export const Layout = ({ children }) => {
+  return (
+    <div className={cx("layout")}>
+      <div className={cx("wrap")}>{children}</div>
+    </div>
+  );
 };

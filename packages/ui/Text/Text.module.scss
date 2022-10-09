@@ -1,0 +1,23 @@
+@import "./../tokens";
+
+.h1 {
+    font-weight: $font-weight-bold;
+    font-size: $font-size-heading;
+    line-height: 33px;
+    color: $color-brand-500;
+    margin: 0;
+}
+
+.h2 {
+    font-weight: $font-weight-bold;
+    font-size: $font-size-sub;
+    line-height: 30px;
+    color: $color-brand-500;
+    margin: 0;
+}
+
+.p {
+    font-weight: $font-weight-normal;
+    font-size: $font-size-body;
+    margin: 0;
+}
