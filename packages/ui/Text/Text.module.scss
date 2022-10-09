@@ -21,3 +21,14 @@
     font-size: $font-size-body;
     margin: 0;
 }
+
+.label {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    display: block;
+    margin-bottom: 8px;
+    font-weight: $font-weight-demi;
+    display: flex;
+    align-items: center;
+}

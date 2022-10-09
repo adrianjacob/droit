@@ -1,5 +1,53 @@
 @import "./../tokens";
 
 .button {
-    background: $color-brand-300;
+    padding: 0 12px;
+    line-height: 1;
+    font:inherit;
+    font-weight: $font-weight-demi;
+    border: 1px solid transparent;
+    border-radius: $border-radius;
+    background: none;
+    cursor: pointer;
+    transition: all 0.25s;
+    display: inline-flex;
+    align-items: center;
+    &:focus {
+        border: 1px solid $color-brand-200;
+        outline: 0;
+    }
+    & + & {
+        margin-left: $grid-gutter / 2;
+    }
+}
+
+.primary {
+    background: $color-brand-400;
+    color: $color-gray-100;
+    &:hover {
+        background: $color-brand-500;
+    }
+}
+
+.secondary {
+    background: $color-gray-100;
+    border: 1px solid $color-brand-400;
+    color: $color-brand-400;
+    &:hover {
+        background: $color-brand-100;
+    }
+}
+
+.small {
+    height: 24px;
+    font-size: 12px;
+}
+
+.large {
+    height: 40px;
+    font-size: 16px; 
+}
+
+.icon {
+    margin-right: 8px;
 }
